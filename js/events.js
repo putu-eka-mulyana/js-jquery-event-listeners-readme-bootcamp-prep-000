@@ -5,6 +5,7 @@ function getIt() {
 });
 }
 
+
   $('input').on('keydown', function pressIt(key) {
   if(key.which == 71){
       alert('g was pressed');
