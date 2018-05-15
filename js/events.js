@@ -18,7 +18,9 @@ $('img').addClass("tasty");
 }
 
 function submitIt(){
-  $("")
+  $("form").on("submit", function(){
+    alert("")
+  });
 }
 $(document).ready(function(){
 
