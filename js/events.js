@@ -19,7 +19,7 @@ $('img').addClass("tasty");
 
 function submitIt(){
   $("form").on("submit", function(){
-    alert("")
+    alert("Your form is going to be submitted now.")
   });
 }
 $(document).ready(function(){
