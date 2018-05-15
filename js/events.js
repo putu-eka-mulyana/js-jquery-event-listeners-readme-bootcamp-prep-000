@@ -1,24 +1,31 @@
 //define functions here
-
-$(document).ready(function(){
-
-// call functions here
- $('p').on("click", function getIt() {
+function getIt() {
+ $('p').on("click", function() {
     alert("Hey!")
 });
+}
 
-
-  $('input').on('keydown', function pressIt(key) {
+function pressIt(){
+  $('input').on('keydown', function (key) {
   if(key.which == 71){
       alert('g was pressed');
   }
 });
-  
+}
 
-  
-    $('img').addClass("tasty");
-$('input').on("keydown", function pressIt(){
-  
-})
+function frameIt(){
+$('img').addClass("tasty");
+}
 
+function submitIt(){
+  $("form").on("submit", function(){
+    alert("Your form is going to be submitted now.")
+  });
+}
+$(document).ready(function(){
+
+// call functions here
+getIt();
+frameIt();
+pressIt();
 });
