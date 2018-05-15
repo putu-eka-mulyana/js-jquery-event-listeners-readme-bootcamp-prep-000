@@ -3,10 +3,11 @@
 $(document).ready(function(){
 
 // call functions here
- $('p').on("click", function getIt() {
+function getIt() {
+ $('p').on("click", function() {
     alert("Hey!")
 });
-
+}
 
   $('input').on('keydown', function pressIt(key) {
   if(key.which == 71){
