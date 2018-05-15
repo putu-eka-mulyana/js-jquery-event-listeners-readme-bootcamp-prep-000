@@ -5,13 +5,13 @@ function getIt() {
 });
 }
 
-
+function pressIt(){
   $('input').on('keydown', function (key) {
   if(key.which == 71){
       alert('g was pressed');
   }
 });
-  
+}
 
 function frameIt(){
 $('img').addClass("tasty");
